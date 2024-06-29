@@ -7,6 +7,7 @@ import (
 	"log"
 )
 
+// client side streaming
 func (s *Server) LongGreet(stream proto.GreetService_LongGreetServer) error {
 	log.Println("LongGreet function was invoked")
 
