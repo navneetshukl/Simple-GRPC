@@ -23,6 +23,7 @@ func main() {
 
 	client := proto.NewGreetServiceClient(conn)
 
-	doGreet(client)
+	//doGreet(client)  // code for unary client
+	doGreetManyTimes(client) // code for server streaming client
 
 }
