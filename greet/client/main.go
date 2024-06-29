@@ -25,6 +25,7 @@ func main() {
 
 	//doGreet(client)  // code for unary client
 	//doGreetManyTimes(client) // code for server streaming client
-	doLongGreet(client) //code for client side streaming
+	//doLongGreet(client) //code for client side streaming
+	doGreetEveryOne(client) //code for bidirectional streaming
 
 }
